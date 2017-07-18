@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>{{ stash.title }}</h1>
+    <dl class="list">
+        <dt>Project</dt>
+        <dd>{{ stash.project }}</dd>
+        <dt>Title</dt>
+        <dd>{{ stash.title }}</dd>
+        <dt>Client</dt>
+        <dd>{{ stash.client }}</dd>
+        <dt>User</dt>
+        <dd>{{ stash.user }}</dd>
+        <dt>Amount</dt>
+        <dd>{{ stash.amount }}</dd>
+        <dt>Type</dt>
+        <dd>{{ stash.type }}</dd>
+        <dt>Update Date</dt>
+        <dd>{{ stash.updated_at }}</dd>
+    </dl>
+    <div class="row">
+        <div class="col-md-12">
+            <a [routerLink]="['/stash-edit', stash._id]" class="btn btn-success">EDIT</a>
+            <button class="btn btn-danger" type="button" (click)="deleteStash(stash._id)">DELETE</button>
+            <a [routerLink]="['/']" class="btn btn-success">STASH</a>
+        </div>
+    </div>
+</div>

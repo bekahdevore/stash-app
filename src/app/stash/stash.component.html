@@ -1,0 +1,38 @@
+<div class="container">
+    <h1>
+        <a [routerLink]="['/stash']" class="display-4">
+            Stash
+        </a>
+        <a (click)="child.toggleId()" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        </a>
+        <a [routerLink]="['/stash']" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </a>
+    </h1>
+    <app-stash-create #child></app-stash-create>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Client</th>
+                <th>Action</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let stash of stash">
+                <td>{{ stash.title }}</td>
+                <td>{{ stash.client }}</td>
+                <td><a [routerLink]="['/stash-details', stash._id]" class="btn btn-success">View</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <blockquote class="blockquote blockquote-reverse">
+        <p class="mb-0">We can only see a short distance ahead, but we can see plenty there that needs to be done.</p>
+        <footer class="blockquote-footer">A. Turing</footer>
+    </blockquote>
+</div>
+<footer style="position: fixed; bottom: 0px; width: 100%; height: 60px; background-color: black;">
+    Copyright information
+</footer>
