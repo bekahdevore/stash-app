@@ -2,7 +2,7 @@
 ## This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.  
 ### Development server
 
-1. Clone Repository: `git clone https://github.com/AylaAyla/book-app-MEA2N.git`
+1. Clone Repository: `git clone https://github.com/bekahdevore/stash-app.git`
 2. Run `npm install`
 3. Run `mongod`(in seperate console tab)
 4. Run `ng build` 
