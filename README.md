@@ -3,11 +3,12 @@
 ### Development server
 
 1. Clone Repository: `git clone https://github.com/bekahdevore/stash-app.git`
-2. Run `npm install`
-3. Run `mongod`(in seperate console tab)
-4. Run `ng build` 
-5. Run `nodemon`
-6. Go to [localhost://3000](http://localhost:3000/)
+2. Move into stash-app directory: `cd stash-app`
+3. Run `npm install`
+4. Run `mongod`(in seperate console tab)
+5. Run `ng build` 
+6. Run `nodemon`
+7. Go to [localhost://3000](http://localhost:3000/)
 
 ### Goal of project:
 Become more aquainted with Angular2 (success)
