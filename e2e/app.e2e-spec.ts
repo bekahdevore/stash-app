@@ -1,10 +1,10 @@
-import { StashAppPage } from './app.po';
+import { MeanAppPage } from './app.po';
 
-describe('stash-app App', () => {
-  let page: StashAppPage;
+describe('mean-app App', () => {
+  let page: MeanAppPage;
 
   beforeEach(() => {
-    page = new StashAppPage();
+    page = new MeanAppPage();
   });
 
   it('should display welcome message', () => {

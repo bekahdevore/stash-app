@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class StashAppPage {
+export class MeanAppPage {
   navigateTo() {
     return browser.get('/');
   }
