@@ -19,7 +19,8 @@ This is an application designed to help store and organize financial documents.
 This project is still in progress. Right now it is a basic CRUD application. You are able to create, add, delete, and edit a list of input text. 
 
 The next phase is to add a search component, along with the ability to add and retrieve documents in the stash. 
- 
+
+Please note: search button currently has no function
 
 ### Running unit tests
 
